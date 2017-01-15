@@ -1,0 +1,82 @@
+/*General styles*/
+*{
+    font-family: Lato
+}
+
+body {
+    margin: 0;
+}
+/*General styles end*/
+/*Menu styles*/
+#menu {
+    width: 100%;
+    background-color: black;
+    z-index: 9999;
+    position: fixed;
+}
+
+#menu >ul{
+    margin: 0px;
+    text-align: center;
+}
+
+
+#menu > ul >li {
+display: inline-block;
+margin: 1em;
+    
+}
+
+#menu > ul >li>a {
+    color: white;
+    margin: 0;
+    text-decoration: none;
+    
+}
+/*Menu styles end*/
+/*Header styles */
+#header{
+    position: relative;
+    margin: 0;
+}
+
+#header > img {
+    width: 100%;
+}
+
+
+#header > h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+/*Header styles end*/
+/**/
+#about > h2,p {
+    text-align: center;
+}
+
+#contact {
+background-color: black;
+margin-bottom: 0;
+}
+
+#contact > address, a {
+    text-align: center;
+    color: white;
+    padding: 1.5em;
+    overflow: hidden;
+    margin-top: 0.3em;
+}
+
+#contact > h2 {
+    text-align: center;
+    color: white;
+    padding: 1em;
+    overflow: hidden;
+}
