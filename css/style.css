@@ -6,6 +6,9 @@
 body {
     margin: 0;
 }
+section, footer{
+    padding: 20px 40px;
+}
 /*General styles end*/
 /*Menu styles*/
 #menu {
@@ -38,6 +41,10 @@ margin: 1em;
 #header{
     position: relative;
     margin: 0;
+    background-image: url(../img/header-background.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
 }
 
 #header > img {
@@ -69,14 +76,11 @@ margin-bottom: 0;
 #contact > address, a {
     text-align: center;
     color: white;
-    padding: 1.5em;
     overflow: hidden;
-    margin-top: 0.3em;
 }
 
 #contact > h2 {
     text-align: center;
     color: white;
-    padding: 1em;
     overflow: hidden;
 }
